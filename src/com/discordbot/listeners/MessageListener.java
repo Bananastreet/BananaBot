@@ -5,6 +5,11 @@ import net.dv8tion.jda.core.entities.MessageChannel;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
+
+/**
+ * This will handle private messages that are received.
+ * TODO: Needs added to be functional.
+ */
 public class MessageListener extends ListenerAdapter {
 
     @Override

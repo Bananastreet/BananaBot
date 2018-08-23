@@ -1,0 +1,48 @@
+{
+  "data": {
+    "common": {
+      "productId": {
+        "wwwItemId": "325050707",
+        "wupc": "0061965915644",
+        "upca": "619659156442",
+        "productId": "1Y37M6DKDA9E",
+        "ean13": "0619659156442"
+      },
+      "name": "SanDisk, 32GB, USB 2.0 Pink Cruzer Blade Drive",
+      "department": "",
+      "thumbnailImageUrl": "https://i5.walmartimages.com/asr/675d3fa2-7483-4cf3-af33-290a25228e51_2.ac223d1de7f585abf2ce27c748496134.jpeg?odnHeight=300&odnWidth=300&odnBg=FFFFFF",
+      "productImageUrl": "https://i5.walmartimages.com/asr/675d3fa2-7483-4cf3-af33-290a25228e51_2.ac223d1de7f585abf2ce27c748496134.jpeg",
+      "customerRating": {
+        "rating": 0,
+        "count": 0
+      },
+      "productUrl": "https://www.walmart.com/ip/SanDisk-32GB-USB-2-0-Pink-Cruzer-Blade-Drive/325050707",
+      "variantSwatches": [
+      ],
+      "offerType": "ONLINE_ONLY",
+      "twoDayShippingEligible": false,
+      "storePickupAvailable": false,
+      "storePickupAvailableToday": false
+    },
+    "online": {
+      "price": {
+        "priceInCents": 0,
+        "currencyUnit": "USD",
+        "showInCart": false
+      },
+      "inventory": {
+        "status": "Out of Stock",
+        "available": false
+      }
+    },
+    "relatedItemsUrls": {
+      "online": "/v1/browse/search?omitProductIds=1Y37M6DKDA9E&query=SanDisk%2C%2032GB%2C%20USB%202.0%20Pink%20Cruzer%20Blade%20Drive&departmentId=3944_3951_132959_529295"
+    }
+  },
+  "apiVersion": "v1",
+  "meta": {
+    "pluginVersion": "v4.0.2",
+    "isExtruded": true,
+    "requestId": "1531520640188:base-platform-184740023-2-382546094:11667:jjkjdvfa:12509"
+  }
+}

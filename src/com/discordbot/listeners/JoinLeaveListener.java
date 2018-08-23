@@ -4,6 +4,10 @@ import net.dv8tion.jda.core.events.guild.member.GuildMemberJoinEvent;
 import net.dv8tion.jda.core.events.guild.member.GuildMemberLeaveEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
+/**
+ * This handles sending a message in the channel when a player joins and leaves, it may also send a private message to the player that has joined.
+ * TODO: Add more features to make this more useful.
+ */
 public class JoinLeaveListener extends ListenerAdapter {
 
     @Override
@@ -20,6 +24,6 @@ public class JoinLeaveListener extends ListenerAdapter {
         if (event.getMember().getUser().isBot()) {
             return;
         }
-        event.getGuild().getDefaultChannel().sendMessage("See ya later then " + event.getMember().getAsMention() + ", I guess...").queue();
+        event.getGuild().getDefaultChannel().sendMessage("See ya later then " + event.getMember().getEffectiveName() + ", I guess...").queue();
     }
 }

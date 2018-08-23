@@ -13,6 +13,6 @@ public class RoleChangeListener extends ListenerAdapter {
 
     @Override
     public void onGuildMemberRoleRemove(GuildMemberRoleRemoveEvent event) {
-        event.getGuild().getDefaultChannel().sendMessage(event.getMember().getAsMention() + " has been demote from role " + event.getRoles().get(0).getAsMention()).queue();
+        event.getGuild().getDefaultChannel().sendMessage(event.getMember().getAsMention() + " has been demoted from role " + event.getRoles().get(0).getAsMention()).queue();
     }
 }
